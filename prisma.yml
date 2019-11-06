@@ -1,4 +1,5 @@
-endpoint: https://us1.prisma.sh/vince-brown-96be48/sicccck-fits/dev
+#endpoint: ${env:PRISMA_ENDPOINT}
+endpoint: https://sick-fits-prod-vb-b5da5afb23.herokuapp.com/sick-fits-prod/prod
 datamodel: datamodel.graphql
 secret: ${env:PRISMA_SECRET}
 generate:
